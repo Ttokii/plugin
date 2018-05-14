@@ -5,7 +5,7 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 	
-	<properties>  
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven-plugin-api-version>3.0</maven-plugin-api-version>
 		<maven-plugin-annotations-version>3.2</maven-plugin-annotations-version>
@@ -21,7 +21,6 @@
             <groupId>org.apache.maven.plugin-tools</groupId>
             <artifactId>maven-plugin-annotations</artifactId>
             <version>${maven-plugin-annotations-version}</version>
-            <scope>provided</scope>
         </dependency>
 	</dependencies>
 	
@@ -31,7 +30,7 @@
 			<plugin>
 				<groupId>com.tokii</groupId>
 				<artifactId>plugin-static-copy</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<version>1.0.0-SNAPSHOT</version>
 				<configuration>
 					<resourceDir>F:/test/testCopyResource</resourceDir>
 					<targetDir>F:/test/testCopyTarget</targetDir>
